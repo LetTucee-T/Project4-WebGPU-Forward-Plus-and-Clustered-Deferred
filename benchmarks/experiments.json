@@ -1,0 +1,68 @@
+[
+  {
+    "id": "baselines",
+    "title": "Renderer baselines and light-position precomputation",
+    "file": "data/baselines.json.gz",
+    "metric": "totalMs",
+    "createdAt": "2026-10-15T03:17:59.298Z",
+    "configurations": 45,
+    "runs": 135,
+    "samples": 4050,
+    "sha256": "90762989d07fdf7fc9cf70ed8209aabdea98df68787582668b163b2133a130d1"
+  },
+  {
+    "id": "depth-prepass",
+    "title": "Forward+ depth prepass",
+    "file": "data/depth-prepass.json.gz",
+    "metric": "totalMs",
+    "createdAt": "2026-10-15T04:05:38.093Z",
+    "configurations": 36,
+    "runs": 144,
+    "samples": 4320,
+    "sha256": "e8b5a9355577734232a979364528e2a3d6c4c1a3b6fa6572f8f61324304a3d09"
+  },
+  {
+    "id": "depth-culling-per-pixel",
+    "title": "Depth culling with one source pixel per marking fragment",
+    "file": "data/depth-culling-per-pixel.json.gz",
+    "metric": "spanMs",
+    "createdAt": "2026-10-15T04:40:20.957Z",
+    "configurations": 54,
+    "runs": 216,
+    "samples": 6480,
+    "sha256": "eab096ece96f54aac25e78be432af7523654cbb9edf1989d50013b7a2dcecd73"
+  },
+  {
+    "id": "depth-culling",
+    "title": "Depth culling with 2x2 marking blocks",
+    "file": "data/depth-culling.json.gz",
+    "metric": "spanMs",
+    "createdAt": "2026-10-15T04:46:34.370Z",
+    "configurations": 54,
+    "runs": 216,
+    "samples": 6480,
+    "sha256": "b3c2f28d050c193579524937a7a897fcc2f94479eb1cb6a477f936b667e599b2"
+  },
+  {
+    "id": "deferred-packed16",
+    "title": "Raster, compute, and 16-byte G-buffer",
+    "file": "data/deferred-packed16.json.gz",
+    "metric": "spanMs",
+    "createdAt": "2026-10-15T05:16:07.068Z",
+    "configurations": 54,
+    "runs": 216,
+    "samples": 6480,
+    "sha256": "d47cf865863ecf24794c511f5a44bae0586d19321a171990248aaf77f0747607"
+  },
+  {
+    "id": "deferred-packed8",
+    "title": "Four deferred variants including 8-byte color plus depth",
+    "file": "data/deferred-packed8.json.gz",
+    "metric": "spanMs",
+    "createdAt": "2026-10-15T05:59:42.667Z",
+    "configurations": 72,
+    "runs": 288,
+    "samples": 8640,
+    "sha256": "eb160c7e9dc0ac87a5696b0a7e167dbcc55e9ad05954e432560d57f4c9d4e798"
+  }
+]

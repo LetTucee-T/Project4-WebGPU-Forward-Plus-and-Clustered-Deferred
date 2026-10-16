@@ -10,10 +10,45 @@ struct LightSet {
     lights: array<Light>
 }
 
-// TODO-2: you may want to create a ClusterSet struct similar to LightSet
+const CLUSTER_GRID = vec3u(${clusterGridX}, ${clusterGridY}, ${clusterGridZ});
+
+// Each cluster has its own fixed slice. Capacity equals the supported light
+// count, so even the worst case (all lights overlap) cannot drop a light.
+struct Cluster {
+    count: u32,
+    lightIndices: array<u32, ${maxNumLights}>
+}
+
+struct ClusterSet {
+    clusters: array<Cluster>
+}
 
 struct CameraUniforms {
-    // TODO-1.3: add an entry for the view proj mat (of type mat4x4f)
+    viewProjMat: mat4x4f,
+    viewMat: mat4x4f,
+    invProjMat: mat4x4f,
+    screenSize: vec2f,
+    nearPlane: f32,
+    farPlane: f32,
+    invViewMat: mat4x4f
+}
+
+fn clusterIndex(coords: vec3u) -> u32 {
+    return (coords.z * CLUSTER_GRID.y + coords.y) * CLUSTER_GRID.x + coords.x;
+}
+
+fn clusterDepthBoundary(slice: u32, near: f32, far: f32) -> f32 {
+    return near * pow(far / near, f32(slice) / f32(CLUSTER_GRID.z));
+}
+
+// Fragment position uses physical framebuffer pixels with a top-left origin.
+// Depth is positive view-space depth (-viewPos.z), not the depth-buffer value.
+fn fragmentClusterIndex(pixel: vec2f, depth: f32, screenSize: vec2f, near: f32, far: f32) -> u32 {
+    let xy = vec2u(clamp(floor(pixel / screenSize * vec2f(CLUSTER_GRID.xy)),
+        vec2f(0), vec2f(CLUSTER_GRID.xy - vec2u(1))));
+    let z = u32(clamp(floor(log(clamp(depth, near, far) / near) / log(far / near)
+        * f32(CLUSTER_GRID.z)), 0.f, f32(CLUSTER_GRID.z - 1u)));
+    return clusterIndex(vec3u(xy, z));
 }
 
 // CHECKITOUT: this special attenuation function ensures lights don't affect geometry outside the maximum light radius

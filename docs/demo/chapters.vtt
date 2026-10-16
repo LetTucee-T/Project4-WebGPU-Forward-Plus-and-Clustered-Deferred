@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.002 --> 00:00:03.028
+WebGPU Forward+ & Clustered Deferred
+
+00:00:03.028 --> 00:00:06.249
+01  Naive forward baseline
+
+00:00:06.249 --> 00:00:09.460
+02  Forward+
+
+00:00:09.460 --> 00:00:12.710
+03  Clustered deferred · raster
+
+00:00:12.710 --> 00:00:16.546
+04  Depth prepass
+
+00:00:16.546 --> 00:00:20.381
+05  Depth-based cluster culling
+
+00:00:20.381 --> 00:00:23.605
+06  View-space light precomputation
+
+00:00:23.605 --> 00:00:27.018
+07  Compute deferred lighting · 32 B
+
+00:00:27.018 --> 00:00:30.432
+08  Packed G-buffer · 16 B
+
+00:00:30.432 --> 00:00:34.302
+09  Packed G-buffer · 8 B + 4 B depth
+
+00:00:34.302 --> 00:00:37.790
+10  Animated lighting · 5,000 lights
+
+00:00:37.790 --> 00:00:41.721
+11  Alternate camera view · Wall
+
+00:00:41.721 --> 00:00:46.438
+12  Reproducible GPU benchmarks
+
+00:00:46.438 --> 00:00:50.333
+Measured tradeoffs, with baseline paths retained

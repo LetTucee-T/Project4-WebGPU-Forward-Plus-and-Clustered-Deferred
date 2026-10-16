@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local experiments, browser recordings, reports, and verification copies.
+# Public documentation and selected evidence live in docs/ and benchmarks/.
+/output/
+/.playwright/
+/.playwright-cli/
+/playwright-report/
+/test-results/
+
+# Optional Python analysis environment and caches
+/.venv/
+__pycache__/
+*.py[cod]

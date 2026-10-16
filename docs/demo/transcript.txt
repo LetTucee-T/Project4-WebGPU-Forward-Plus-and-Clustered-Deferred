@@ -1,0 +1,41 @@
+00:00:00.002  WebGPU Forward+ & Clustered Deferred
+Sponza · 1,000 point lights · 1280 × 720. This recording demonstrates features, not benchmark FPS.
+
+00:00:03.028  01  Naive forward baseline
+Every shaded fragment loops over all lights. Fixed seed, light time and camera make comparison repeatable.
+
+00:00:06.249  02  Forward+
+A 16 × 9 × 24 cluster grid stores GPU-built light lists. The visible lighting is preserved.
+
+00:00:09.460  03  Clustered deferred · raster
+Geometry fills a 32 B/pixel color G-buffer; a fullscreen pass shades visible pixels.
+
+00:00:12.710  04  Depth prepass
+Depth-only geometry and matching alpha tests precede lighting. Depth equality and stencil reject duplicate coverage.
+
+00:00:16.546  05  Depth-based cluster culling
+A separate fullscreen quad marks active clusters; inactive cluster invocations return early. No stream compaction.
+
+00:00:20.381  06  View-space light precomputation
+Transform each light once per frame. Both the baseline and optimized paths remain selectable.
+
+00:00:23.605  07  Compute deferred lighting · 32 B
+One 8 × 8 compute dispatch replaces the fullscreen lighting pass and writes directly to the canvas.
+
+00:00:27.018  08  Packed G-buffer · 16 B
+One RGBA32Uint output: linear depth, octahedral normal and half-float RGB. Position is reconstructed.
+
+00:00:30.432  09  Packed G-buffer · 8 B + 4 B depth
+One RG32Uint color output plus sampled depth. RGB10 companding trades small errors for lower storage.
+
+00:00:34.302  10  Animated lighting · 5,000 lights
+Live light motion and camera movement. The recorded frame rate is affected by screen capture.
+
+00:00:37.790  11  Alternate camera view · Wall
+Switching viewpoints changes visible geometry and the light lists used by each pixel.
+
+00:00:41.721  12  Reproducible GPU benchmarks
+Selectable suites, warmup, repeated rounds and JSON/CSV export. README graphs use saved measurements, not this video.
+
+00:00:46.438  Measured tradeoffs, with baseline paths retained
+8 B color + 4 B depth reduces storage; speed depends on workload. See the README for timings and precision limits.

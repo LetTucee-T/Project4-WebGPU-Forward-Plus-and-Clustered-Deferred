@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>Project 4 · Feature walkthrough</title><style>body{margin:0;background:#101722;color:#edf3f9;font:16px/1.65 system-ui,sans-serif}
+main{max-width:1080px;margin:auto;padding:32px 24px}h1{line-height:1.2;font-size:32px}p{color:#b9c8d9}
+video{display:block;width:100%;background:#000;border-radius:10px}a{color:#83dbd4}
+.chapters{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:8px;margin-top:20px}
+button{background:#1b2839;border:1px solid #35455a;color:#e6effa;text-align:left;padding:10px;border-radius:5px;cursor:pointer}
+button span{color:#83dbd4;font-variant-numeric:tabular-nums;margin-right:8px}button:hover{background:#263c52}</style></head><body><main>
+<p>CIS 565 · GPU PROGRAMMING · PROJECT 4</p><h1>Forward+ &amp; Clustered Deferred</h1>
+<p>50.3 seconds · 1280 × 720 · 24 fps capture · English captions · no audio</p>
+<video controls preload="metadata" playsinline poster="../images/overview.png"><source src="demo.webm" type="video/webm"><track kind="chapters" src="chapters.vtt" srclang="en" label="Chapters"></video>
+<p>Real browser capture. Recording frame rate is not benchmark performance. English captions describe each rendering feature.</p>
+<p><a href="demo.webm" download>Download WebM</a> · <a href="transcript.txt">Transcript</a> · <a href="../../index.html">Open the renderer</a></p>
+<div class="chapters"><button data-time="0.002"><span>00:00</span> WebGPU Forward+ &amp; Clustered Deferred</button>
+<button data-time="3.028"><span>00:03</span> 01  Naive forward baseline</button>
+<button data-time="6.249"><span>00:06</span> 02  Forward+</button>
+<button data-time="9.460"><span>00:09</span> 03  Clustered deferred · raster</button>
+<button data-time="12.710"><span>00:12</span> 04  Depth prepass</button>
+<button data-time="16.546"><span>00:16</span> 05  Depth-based cluster culling</button>
+<button data-time="20.381"><span>00:20</span> 06  View-space light precomputation</button>
+<button data-time="23.605"><span>00:23</span> 07  Compute deferred lighting · 32 B</button>
+<button data-time="27.018"><span>00:27</span> 08  Packed G-buffer · 16 B</button>
+<button data-time="30.432"><span>00:30</span> 09  Packed G-buffer · 8 B + 4 B depth</button>
+<button data-time="34.302"><span>00:34</span> 10  Animated lighting · 5,000 lights</button>
+<button data-time="37.790"><span>00:37</span> 11  Alternate camera view · Wall</button>
+<button data-time="41.721"><span>00:41</span> 12  Reproducible GPU benchmarks</button>
+<button data-time="46.438"><span>00:46</span> Measured tradeoffs, with baseline paths retained</button></div></main><script>
+document.querySelectorAll('button[data-time]').forEach(button=>button.addEventListener('click',()=>{const video=document.querySelector('video');video.currentTime=Number(button.dataset.time);video.play();}));
+</script></body></html>

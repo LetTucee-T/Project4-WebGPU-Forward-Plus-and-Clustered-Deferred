@@ -1,0 +1,2327 @@
+{
+  "cases": [
+    {
+      "label": "atrium-0",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compact8Pre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      },
+      "compact8VsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "atrium-1",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "compact8Pre": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      },
+      "compact8VsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "atrium-100",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.0008040364583333334,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 2220,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.0008040364583333334,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 2220,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.0007783564814814814,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 2149,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.0008040364583333334,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 2220,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.0008040364583333334,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 2220,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.0007783564814814814,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 2149,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 1,
+          "meanRgbError": 0.001644603587962963,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 4514,
+          "pixelsOverOne": 0
+        },
+        "compact8Pre": {
+          "max": 1,
+          "meanRgbError": 0.001644603587962963,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 4514,
+          "pixelsOverOne": 0
+        }
+      },
+      "compact8VsRaster": {
+        "max": 1,
+        "meanRgbError": 0.0017780671296296297,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 4880,
+        "pixelsOverOne": 0
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "atrium-1000",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010158058449074074,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27608,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010158058449074074,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27608,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.01017795138888889,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27645,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010158058449074074,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27608,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010158058449074074,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27608,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.01017795138888889,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27645,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.020225332754629628,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 54073,
+          "pixelsOverOne": 2
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.020225332754629628,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 54073,
+          "pixelsOverOne": 2
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.022178096064814815,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 59032,
+        "pixelsOverOne": 4
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "atrium-5000",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.028525390625,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 75976,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.028525390625,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 75976,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.028522858796296298,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 75991,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.028525390625,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 75976,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.028525390625,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 75976,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.028522858796296298,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 75991,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 7,
+          "meanRgbError": 0.061565393518518516,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 157349,
+          "pixelsOverOne": 106
+        },
+        "compact8Pre": {
+          "max": 7,
+          "meanRgbError": 0.061565393518518516,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 157349,
+          "pixelsOverOne": 106
+        }
+      },
+      "compact8VsRaster": {
+        "max": 8,
+        "meanRgbError": 0.0665209056712963,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 168972,
+        "pixelsOverOne": 109
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "camera-moved",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010016276041666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27199,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010016276041666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27199,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.00997974537037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27115,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010016276041666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27199,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010016276041666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27199,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.00997974537037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27115,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 1,
+          "meanRgbError": 0.019903428819444444,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 53209,
+          "pixelsOverOne": 0
+        },
+        "compact8Pre": {
+          "max": 1,
+          "meanRgbError": 0.019903428819444444,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 53209,
+          "pixelsOverOne": 0
+        }
+      },
+      "compact8VsRaster": {
+        "max": 1,
+        "meanRgbError": 0.021825086805555557,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 58146,
+        "pixelsOverOne": 0
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "different-time",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.008009982638888889,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 21800,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.008009982638888889,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 21800,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.007987919560185186,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 21738,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.008009982638888889,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 21800,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.008009982638888889,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 21800,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.007987919560185186,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 21738,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.01568648726851852,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 42119,
+          "pixelsOverOne": 5
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.01568648726851852,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 42119,
+          "pixelsOverOne": 5
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.017140480324074073,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 45921,
+        "pixelsOverOne": 5
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "Wall",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.0013433159722222223,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 3711,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.0013433159722222223,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 3711,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.001343677662037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 3712,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.0013433159722222223,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 3711,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.0013433159722222223,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 3711,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.001343677662037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 3712,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 1,
+          "meanRgbError": 0.002549189814814815,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 7033,
+          "pixelsOverOne": 0
+        },
+        "compact8Pre": {
+          "max": 1,
+          "meanRgbError": 0.002549189814814815,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 7033,
+          "pixelsOverOne": 0
+        }
+      },
+      "compact8VsRaster": {
+        "max": 1,
+        "meanRgbError": 0.0027531828703703702,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 7593,
+        "pixelsOverOne": 0
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "Sky",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.00016456886574074073,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 454,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.00016456886574074073,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 454,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.00016493055555555556,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 455,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.00016456886574074073,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 454,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.00016456886574074073,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 454,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.00016493055555555556,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 455,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 1,
+          "meanRgbError": 0.00027886284722222223,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 771,
+          "pixelsOverOne": 0
+        },
+        "compact8Pre": {
+          "max": 1,
+          "meanRgbError": 0.00027886284722222223,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 771,
+          "pixelsOverOne": 0
+        }
+      },
+      "compact8VsRaster": {
+        "max": 1,
+        "meanRgbError": 0.00031828703703703706,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 878,
+        "pixelsOverOne": 0
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "960x540",
+      "framebuffer": [
+        960,
+        540
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010000643004115226,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 15295,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010000643004115226,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 15295,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.01,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 15291,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010000643004115226,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 15295,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010000643004115226,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 15295,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.01,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 15291,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.02014917695473251,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 30282,
+          "pixelsOverOne": 2
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.02014917695473251,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 30282,
+          "pixelsOverOne": 2
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.021933513374485597,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 32856,
+        "pixelsOverOne": 2
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "1920x1080",
+      "framebuffer": [
+        1920,
+        1080
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010041634516460906,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 61412,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010041634516460906,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 61412,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.010014949845679012,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 61252,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010041634516460906,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 61412,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010041634516460906,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 61412,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.010014949845679012,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 61252,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.02012763631687243,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 121051,
+          "pixelsOverOne": 13
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.02012763631687243,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 121051,
+          "pixelsOverOne": 13
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.02197096836419753,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 131673,
+        "pixelsOverOne": 12
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "odd-1279x719",
+      "framebuffer": [
+        1279,
+        719
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010056172912672634,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27277,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010056172912672634,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27277,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.010007601122660807,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27137,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010056172912672634,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27277,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010056172912672634,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27277,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.010007601122660807,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27137,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.020164179899760874,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 53671,
+          "pixelsOverOne": 1
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.020164179899760874,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 53671,
+          "pixelsOverOne": 1
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.021925451001756923,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 58193,
+        "pixelsOverOne": 1
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "seed-42",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010345413773148147,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 28107,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010345413773148147,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 28107,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.010362413194444444,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 28128,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010345413773148147,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 28107,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010345413773148147,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 28107,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.010362413194444444,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 28128,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.020573640046296297,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 54959,
+          "pixelsOverOne": 8
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.020573640046296297,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 54959,
+          "pixelsOverOne": 8
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.022347005208333333,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 59517,
+        "pixelsOverOne": 9
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "moving-0",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.010015552662037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27186,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.010015552662037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27186,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.00999855324074074,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27126,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.010015552662037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27186,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.010015552662037037,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27186,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.00999855324074074,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 27126,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.020215205439814816,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 54025,
+          "pixelsOverOne": 7
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.020215205439814816,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 54025,
+          "pixelsOverOne": 7
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.021989293981481483,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 58615,
+        "pixelsOverOne": 9
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "moving-1",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.008808232060185186,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 23971,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.008808232060185186,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 23971,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.008737340856481481,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 23787,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.008808232060185186,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 23971,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.008808232060185186,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 23971,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.008737340856481481,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 23787,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 3,
+          "meanRgbError": 0.017803819444444445,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 47581,
+          "pixelsOverOne": 89
+        },
+        "compact8Pre": {
+          "max": 3,
+          "meanRgbError": 0.017803819444444445,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 47581,
+          "pixelsOverOne": 89
+        }
+      },
+      "compact8VsRaster": {
+        "max": 3,
+        "meanRgbError": 0.019318938078703704,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 51506,
+        "pixelsOverOne": 101
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "moving-2",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.006705729166666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18308,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.006705729166666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18308,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 2,
+          "meanRgbError": 0.006682219328703704,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18246,
+          "pixelsOverOne": 1
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.006705729166666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18308,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.006705729166666666,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18308,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 2,
+          "meanRgbError": 0.006682219328703704,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18246,
+          "pixelsOverOne": 1
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.013556857638888888,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 36648,
+          "pixelsOverOne": 3
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.013556857638888888,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 36648,
+          "pixelsOverOne": 3
+        }
+      },
+      "compact8VsRaster": {
+        "max": 2,
+        "meanRgbError": 0.014673032407407407,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 39623,
+        "pixelsOverOne": 1
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "moving-3",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.0069288917824074075,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18888,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.0069288917824074075,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18888,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.006868127893518519,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18736,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.0069288917824074075,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18888,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.0069288917824074075,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18888,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.006868127893518519,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 18736,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 6,
+          "meanRgbError": 0.013464626736111112,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 36329,
+          "pixelsOverOne": 2
+        },
+        "compact8Pre": {
+          "max": 6,
+          "meanRgbError": 0.013464626736111112,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 36329,
+          "pixelsOverOne": 2
+        }
+      },
+      "compact8VsRaster": {
+        "max": 6,
+        "meanRgbError": 0.014749710648148149,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 39710,
+        "pixelsOverOne": 3
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "moving-4",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.007524233217592592,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 20553,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.007524233217592592,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 20553,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.007519892939814815,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 20515,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.007524233217592592,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 20553,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.007524233217592592,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 20553,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.007519892939814815,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 20515,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 4,
+          "meanRgbError": 0.015164930555555555,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 40764,
+          "pixelsOverOne": 4
+        },
+        "compact8Pre": {
+          "max": 4,
+          "meanRgbError": 0.015164930555555555,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 40764,
+          "pixelsOverOne": 4
+        }
+      },
+      "compact8VsRaster": {
+        "max": 4,
+        "meanRgbError": 0.01654839409722222,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 44356,
+        "pixelsOverOne": 7
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    },
+    {
+      "label": "moving-5",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "vsNaive": {
+        "forward": {
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        "raster": {
+          "max": 1,
+          "meanRgbError": 0.007224392361111111,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 19695,
+          "pixelsOverOne": 0
+        },
+        "compute": {
+          "max": 1,
+          "meanRgbError": 0.007224392361111111,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 19695,
+          "pixelsOverOne": 0
+        },
+        "compact": {
+          "max": 1,
+          "meanRgbError": 0.007174479166666667,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 19566,
+          "pixelsOverOne": 0
+        },
+        "rasterPre": {
+          "max": 1,
+          "meanRgbError": 0.007224392361111111,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 19695,
+          "pixelsOverOne": 0
+        },
+        "computePre": {
+          "max": 1,
+          "meanRgbError": 0.007224392361111111,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 19695,
+          "pixelsOverOne": 0
+        },
+        "compactPre": {
+          "max": 1,
+          "meanRgbError": 0.007174479166666667,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 19566,
+          "pixelsOverOne": 0
+        },
+        "compact8": {
+          "max": 2,
+          "meanRgbError": 0.014455295138888888,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 38907,
+          "pixelsOverOne": 4
+        },
+        "compact8Pre": {
+          "max": 2,
+          "meanRgbError": 0.014455295138888888,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 38907,
+          "pixelsOverOne": 4
+        }
+      },
+      "compact8VsRaster": {
+        "max": 3,
+        "meanRgbError": 0.01586516203703704,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 42634,
+        "pixelsOverOne": 4
+      },
+      "computeVsRaster": {
+        "max": 0,
+        "meanRgbError": 0,
+        "alphaMismatch": 0,
+        "pixelsDifferent": 0,
+        "pixelsOverOne": 0
+      },
+      "precomputeInvariant": [
+        {
+          "name": "raster",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compute",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        },
+        {
+          "name": "compact8",
+          "max": 0,
+          "meanRgbError": 0,
+          "alphaMismatch": 0,
+          "pixelsDifferent": 0,
+          "pixelsOverOne": 0
+        }
+      ]
+    }
+  ],
+  "fields": {
+    "unit": {
+      "samples": 8197,
+      "maxError": 0.0009765625,
+      "maxDarkError": 9.222980588674545e-05,
+      "packingMismatch": 0,
+      "passed": true
+    },
+    "fieldResults": [
+      {
+        "view": "Atrium",
+        "visiblePixels": 921600,
+        "maskMismatch": 0,
+        "maxWorldPositionError": 0.0007127146091873324,
+        "meanWorldPositionError": 4.182580702330236e-05,
+        "passed": true
+      },
+      {
+        "view": "Wall",
+        "visiblePixels": 921600,
+        "maskMismatch": 0,
+        "maxWorldPositionError": 1.6966292261750408e-05,
+        "meanWorldPositionError": 6.209735208049793e-06,
+        "passed": true
+      },
+      {
+        "view": "Sky",
+        "visiblePixels": 462456,
+        "maskMismatch": 0,
+        "maxWorldPositionError": 0.00016801156978893855,
+        "meanWorldPositionError": 1.1727366721104734e-05,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "tolerance": {
+    "maxRgbDifference": 16,
+    "meanRgbDifference": 0.1,
+    "fractionPixelsAboveOne": 0.001,
+    "units": "8-bit channel levels; observed maxima are reported separately"
+  },
+  "passed": true
+}

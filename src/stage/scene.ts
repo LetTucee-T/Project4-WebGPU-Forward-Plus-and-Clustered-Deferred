@@ -81,7 +81,7 @@ export class Primitive {
         const indicesByteOffset = (indicesAccessor.byteOffset ?? 0)
             + (indicesBufferView.byteOffset ?? 0)
             + indicesBuffer.byteOffset;
-        let indicesArray: Uint32Array;
+        let indicesArray: Uint32Array<ArrayBuffer>;
         // hardcoding webgl constants, very silly
         switch (indicesDataType) {
             case 0x1403: // UNSIGNED_SHORT
@@ -89,7 +89,8 @@ export class Primitive {
                     new Uint16Array(indicesBuffer.arrayBuffer, indicesByteOffset, indicesAccessor.count));
                 break;
             case 0x1405: // UNSIGNED_INT (untested)
-                indicesArray = new Uint32Array(indicesBuffer.arrayBuffer, indicesByteOffset, indicesAccessor.count);
+                // Own the upload bytes; loaders may expose an ArrayBufferLike view.
+                indicesArray = new Uint32Array(new Uint32Array(indicesBuffer.arrayBuffer, indicesByteOffset, indicesAccessor.count));
                 break;
             default:
                 throw new Error(`unsupported index buffer element component type: 0x${indicesDataType.toString(16)}`);
@@ -182,7 +183,7 @@ export class Node {
                 usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST,
             });
 
-            device.queue.writeBuffer(this.modelMatUniformBuffer, 0, this.transform);
+            device.queue.writeBuffer(this.modelMatUniformBuffer, 0, new Float32Array(this.transform));
 
             this.modelBindGroup = device.createBindGroup({
                 label: "model bind group",
