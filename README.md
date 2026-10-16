@@ -70,6 +70,12 @@ The documentation check verifies included local references, scene assets, and pu
 
 Enabling **Depth cluster culling** also enables the depth prepass. These switches affect Forward+; **Deferred pipeline** affects clustered deferred. Pause **lights** to compare images at a fixed time; pause **rendering** to stop this tab's GPU submissions. The deferred default remains Raster for a clear baseline.
 
+### Deploy to GitHub Pages
+
+In the destination repository, enable GitHub Actions and set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Forks may require enabling workflows in the **Actions** tab first.
+
+Open **Actions → Deploy static content to Pages → Run workflow**, select `main`, and run it. The workflow validates the source and documentation, builds with the repository name as the URL base, and publishes `dist/`, including all scene assets and the walkthrough. Use the deployment URL shown by the completed workflow. The workflow also declares a `push` trigger for `main`; the manual action can publish a specific current version whenever needed.
+
 ## Rendering design
 
 ### Shared clustering
