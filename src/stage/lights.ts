@@ -230,9 +230,12 @@ export class Lights {
             const transform = encoder.beginComputePass({ label: 'light view transform pass', timestampWrites: timing?.writes('transform') });
             transform.setPipeline(this.transformLightsPipeline);
             transform.setBindGroup(0, this.transformLightsBindGroup);
-            transform.dispatchWorkgroups(Math.ceil(this.numLights / shaders.constants.moveLightsWorkgroupSize));
+            if (this.numLights > 0) {
+                transform.dispatchWorkgroups(Math.ceil(this.numLights / shaders.constants.moveLightsWorkgroupSize));
+            }
             transform.end();
         }
+        // Even with zero lights, clear each cluster's count to avoid stale light lists.
         const pass = encoder.beginComputePass({ label: "light clustering pass", timestampWrites: timing?.writes('clustering') });
         pass.setPipeline(depthCulling
             ? (this.precomputeViewPositions ? this.culledPrecomputedClusteringPipeline : this.culledClusteringPipeline)
@@ -262,6 +265,7 @@ export class Lights {
 
     // CHECKITOUT: this is where the light movement compute shader is dispatched from the host
     onFrame(time: number) {
+        if (this.numLights === 0) return;
         device.queue.writeBuffer(this.timeUniformBuffer, 0, new Float32Array([time]));
 
         // not using same encoder as render pass so this doesn't interfere with measuring actual rendering performance

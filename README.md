@@ -12,9 +12,9 @@ A WebGPU renderer for the supplied Sponza scene with up to **5,000 animated poin
 
 ## Demo
 
-[Watch or download the 50-second walkthrough (WebM, 720p)](docs/demo/demo.webm) · [Chapter-based video player](docs/demo/index.html)
+[Watch or download the 50-second walkthrough (WebM, 720p)](docs/demo/demo.webm) · [Chapter-based video player](https://lettucee-t.github.io/Project4-WebGPU-Forward-Plus-and-Clustered-Deferred/docs/demo/)
 
-The walkthrough shows all three renderers, Forward+ depth prepass, depth-based cluster culling, light-position precomputation, all four deferred variants, 5,000 moving lights, camera movement/presets, and benchmark controls. English captions explain each step. The recording demonstrates the features; GPU performance is measured separately below. To use the chapter player, run the application and open `docs/demo/` under the server URL printed by Vite. The production build includes the same player and media.
+The walkthrough shows all three renderers, Forward+ depth prepass, depth-based cluster culling, light-position precomputation, all four deferred variants, 5,000 moving lights, camera movement/presets, and benchmark controls. English captions explain each step. The recording demonstrates the features; GPU performance is measured separately below. The chapter player is available online through the link above. For local playback, run the application and open `docs/demo/` under the server URL printed by Vite. The production build includes the same player and media.
 
 ## Implemented features
 
